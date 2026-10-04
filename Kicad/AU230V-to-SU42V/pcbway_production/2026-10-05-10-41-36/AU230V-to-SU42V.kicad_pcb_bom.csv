@@ -1,0 +1,5 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,Height,Mouser Part Number,Mouser Price/Stock,Manufacturer_Name
+F1,1,200mA T 250V,Fuseholder_Clip-5x20mm_Littelfuse_111_Inline_P20.00x5.00mm_D1.05mm_Horizontal,,,,tht,Fuse,,,,
+J1,1,230VAC Input,TJC1-2A,,,,tht,"C14 Plug, 10A max",,,,
+J2,1,42VAC Output,TJC1-2A,,,,tht,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",,,,
+T1,1,FP40-600,FP40600,,FP40-600,,tht,"Max. power 24VA, primary voltage 230V, secondary voltage 40Vct @ 600mA",34.925,553-FP40-600,https://mou.sr/4dQkbfw,Triad Magnetics

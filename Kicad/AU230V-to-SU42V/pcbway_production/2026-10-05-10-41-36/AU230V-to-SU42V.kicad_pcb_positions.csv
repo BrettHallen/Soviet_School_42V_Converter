@@ -1,0 +1,11 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+76.295,-110.443,0.0,top,F1,,,Fuseholder_Clip-5x20mm_Littelfuse_111_Inline_P20.00x5.00mm_D1.05mm_Horizontal,200mA T 250V,tht
+74.295,-125.943,0.0,top,H1,,,MountingHole_3.2mm_M3,MountingHole,tht
+74.295,-50.943,0.0,top,H2,,,MountingHole_3.2mm_M3,MountingHole,tht
+139.295,-125.943,0.0,top,H3,,,MountingHole_3.2mm_M3,MountingHole,tht
+139.295,-50.943,0.0,top,H4,,,MountingHole_3.2mm_M3,MountingHole,tht
+204.295,-125.943,0.0,top,H5,,,MountingHole_3.2mm_M3,MountingHole,tht
+204.295,-50.943,0.0,top,H6,,,MountingHole_3.2mm_M3,MountingHole,tht
+76.295,-91.943,90.0,top,J1,,,TJC1-2A,230VAC Input,tht
+202.795,-91.943,90.0,top,J2,,,TJC1-2A,42VAC Output,tht
+115.535,-110.443,-90.0,top,T1,FP40-600,,FP40600,FP40-600,tht

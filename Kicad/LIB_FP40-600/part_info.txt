@@ -1,0 +1,9 @@
+Manufacturer=Triad Magnetics
+PartNumber=FP40-600
+PartCategory=Transformer
+PackageCategory=Other
+PinCount=8
+Version=1.1
+Released=2018-12-16 16:11:03
+Downloaded=2026-10-04 21:17:43
+3D=Y

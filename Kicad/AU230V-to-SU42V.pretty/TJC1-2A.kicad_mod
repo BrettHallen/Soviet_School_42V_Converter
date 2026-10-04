@@ -1,0 +1,109 @@
+(footprint "TJC1-2A"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "J"
+		(at -1 -7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "eb1d7bae-55a0-4278-8058-16e56bfcb262")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TJC1-2A"
+		(at -1 -5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9f5ebd99-ea21-4c0a-ad1f-fa0db78f17f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0cb9b61-73ad-4136-ac37-d112373255d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "TJC1 type connector 2-pin"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6336044b-a5fc-4911-98da-f538169172bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -3.6 -3.6)
+		(end 13.6 3.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c15a0141-3789-4838-9b39-3ba188a13f30")
+	)
+	(fp_rect
+		(start -4 -4)
+		(end 14 4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9392133d-b5ea-475e-ac0e-3facd2e73347")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1 -4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ee7764f6-1d5d-4a3d-b81d-5f7b99a1648b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 6.5 6.5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "839303ac-e407-4185-abfb-cebad3f48b6e")
+	)
+	(pad "2" thru_hole circle
+		(at 10 0)
+		(size 6.5 6.5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cec83789-96f0-4b97-8652-83ced4262d9c")
+	)
+	(embedded_fonts no)
+)
