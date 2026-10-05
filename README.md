@@ -3,7 +3,7 @@ Convert Australian 230VAC power to Soviet 42VAC for computers & calculators.<br>
 
 The Soviet had a low-voltage (42V) power supply available that used a special plug & socket (розетка 42В).<br>
 
-![Soviet LV socket](/Images/old-lighting_ru_rozetka-na-42-v.jpg)
+![Soviet LV socket](/Images/rozetka-na-42.jpg)
 
 This was used by calculators such as the «Электроника МКШ-2» and computers such as the «Электроника МС0511».<br>
 
