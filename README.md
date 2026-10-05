@@ -9,11 +9,11 @@ This was used by calculators such as the «Электроника МКШ-2» and
 
 This appears similar to the Clipsal 402/32 (socket) and 492/32 (plug) available in Australia for low voltage requirements.<br>
 
-![Clipsal plug](/Images/492-32TR.png)
+![Clipsal plug](/Images/492-32TR_small.png)
 
-![Clipsal socket](/Images/402-32.png)
+![Clipsal socket](/Images/402-32_small.png)
 
-My idea was to create a simple 240VAC-to-42VAC step-down power supply with matching socket.<br>
+My idea was to create a simple 230VAC-to-42VAC step-down power supply with matching socket.<br>
 
 My initial design will be using the Triad Magentics FP40-600 transformer.<br>
 
