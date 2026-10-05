@@ -1,5 +1,5 @@
 # Soviet School 42V Converter
-Convert Australian 240VAC power to Soviet 42VAC for computers & calculators.<br>
+Convert Australian 230VAC power to Soviet 42VAC for computers & calculators.<br>
 
 The Soviet had a low-voltage (42V) power supply available that used a special plug & socket (розетка 42В).<br>
 
