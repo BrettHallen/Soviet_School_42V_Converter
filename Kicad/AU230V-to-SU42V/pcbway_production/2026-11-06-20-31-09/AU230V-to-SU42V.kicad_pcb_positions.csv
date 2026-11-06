@@ -1,5 +1,6 @@
 ﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
 85.535,-99.226,-90.0,top,F1,,,Littelfuse_5x20mm,200mA T 250V,tht
+192.785,-66.976,0.0,top,F2,,,Littelfuse_5x20mm,160mA T 250V,tht
 74.295,-125.943,0.0,top,H1,,,MountingHole_3.2mm_M3,MountingHole,tht
 74.295,-50.943,0.0,top,H2,,,MountingHole_3.2mm_M3,MountingHole,tht
 139.295,-125.943,0.0,top,H3,,,MountingHole_3.2mm_M3,MountingHole,tht
@@ -7,5 +8,6 @@
 204.295,-125.943,0.0,top,H5,,,MountingHole_3.2mm_M3,MountingHole,tht
 204.295,-50.943,0.0,top,H6,,,MountingHole_3.2mm_M3,MountingHole,tht
 85.535,-76.452,90.0,top,J1,,,TJC1-2A,230VAC Input,tht
-197.207,-91.747,90.0,top,J2,,,TJC1-2A,40VAC Output,tht
+194.035,-103.726,90.0,top,J2,,,TJC1-2A,42VAC Output,tht
+202.535,-79.476,180.0,top,R1,,,R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal,100Ω 3W,tht
 115.535,-110.443,-90.0,top,T1,FP40-600,,FP40600,FP40-600,tht

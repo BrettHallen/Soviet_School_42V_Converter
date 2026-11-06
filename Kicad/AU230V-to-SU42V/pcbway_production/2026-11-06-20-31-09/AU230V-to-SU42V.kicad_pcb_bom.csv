@@ -1,0 +1,7 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,KiLib_Generator,Height,Mouser Part Number,Mouser Price/Stock,Manufacturer_Name
+F1,1,200mA T 250V,Littelfuse_5x20mm,,,,tht,Fuse,,,,,
+F2,1,160mA T 250V,Littelfuse_5x20mm,,,,tht,Fuse,,,,,
+J1,1,230VAC Input,TJC1-2A,,,,tht,"C14 Plug, 10A max",,,,,
+J2,1,42VAC Output,TJC1-2A,,,,tht,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",,,,,
+R1,1,100Ω 3W,R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal,,,,tht,Resistor,resistor/THT,,,,
+T1,1,FP40-600,FP40600,,FP40-600,,tht,"Max. power 24VA, primary voltage 230V, secondary voltage 40Vct @ 600mA",,34.925,553-FP40-600,https://mou.sr/4dQkbfw,Triad Magnetics

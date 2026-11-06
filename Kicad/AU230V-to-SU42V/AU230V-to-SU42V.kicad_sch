@@ -6,8 +6,8 @@
 	(paper "A5")
 	(title_block
 		(title "230VAC-to-42VAC Stepdown Transformer")
-		(date "5/OCT/2026")
-		(rev "A")
+		(date "6/NOV/2026")
+		(rev "B")
 		(company "Brett Hallen")
 		(comment 4 "Simple converter for Australian 230VAC mains supply to Soviet 42VAC school supply")
 	)
@@ -844,6 +844,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -1221,6 +1361,46 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "For the Электроника МКШ-2 and 240VAC line voltage, a 100Ω 3W wire wound resistor dropped the output voltage from 50VAC (unloaded) to 42.6VAC.\n\nThe design range for the МКШ-2 is 35.7 to 46.2V with nominal 42V."
+		(exclude_from_sim no)
+		(at 119.38 16.51 0)
+		(size 72.39 12.6999)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "48e827e1-7884-48df-90ec-7a186655ca56")
+	)
+	(text_box "This design could be repurposed for 115VAC line voltage by modifying the primary inputs, but I can't test that here in Australia.\n\nRefer to the transformer data sheet:\n[1] Tie 1 & 3, 2 & 4\n[2] Input to 1 & 2"
+		(exclude_from_sim no)
+		(at 44.45 72.39 0)
+		(size 44.45 18.2607)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "86b69ad4-3fc8-4915-a7ca-06ca2852b694")
+	)
 	(text_box "Australian 230VAC Input\nIEC 60320 C14 inlet\n\nSoviet 42VAC Output:\nClipsal 402/32 socket or similar (Розетка 42В)\n\nProtective Earth\nBond to metal case"
 		(exclude_from_sim no)
 		(at 31.75 110.49 0)
@@ -1351,6 +1531,26 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 53.34) (xy 171.45 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7933189d-72e1-4f10-835f-927a520b215b")
+	)
+	(wire
+		(pts
+			(xy 125.73 58.42) (xy 171.45 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8896a55b-4135-49dc-a681-d47d2e1927c8")
+	)
+	(wire
+		(pts
 			(xy 57.15 60.96) (xy 73.66 60.96)
 		)
 		(stroke
@@ -1358,6 +1558,16 @@
 			(type default)
 		)
 		(uuid "90bbf5dd-06ec-432d-9214-4904430b27be")
+	)
+	(wire
+		(pts
+			(xy 125.73 53.34) (xy 148.59 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "928ece73-d72d-4ca2-a1bb-15391e08e520")
 	)
 	(wire
 		(pts
@@ -1371,7 +1581,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 54.61) (xy 148.59 53.34)
+			(xy 171.45 54.61) (xy 171.45 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1391,13 +1601,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 58.42) (xy 148.59 58.42)
+			(xy 156.21 53.34) (xy 158.75 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a742f239-1c25-4b54-b8c1-24c4398be7ef")
+		(uuid "9f0f1ac6-4c48-481e-9026-2ea5b8ee9608")
 	)
 	(wire
 		(pts
@@ -1421,16 +1631,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 53.34) (xy 125.73 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cda9c11f-4633-4a6e-a989-34f62a54ff5c")
-	)
-	(wire
-		(pts
 			(xy 93.98 55.88) (xy 97.79 55.88)
 		)
 		(stroke
@@ -1441,7 +1641,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 58.42) (xy 148.59 57.15)
+			(xy 171.45 58.42) (xy 171.45 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1460,7 +1660,7 @@
 		(uuid "5ab38636-1b19-495a-a1db-84409827c1f9")
 	)
 	(label "42V_A"
-		(at 140.97 58.42 0)
+		(at 133.35 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1480,7 +1680,7 @@
 		(uuid "7ed5cd38-f2ff-4119-a66c-6bf22a083d8b")
 	)
 	(label "42V_B"
-		(at 140.97 53.34 0)
+		(at 133.35 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1953,7 +2153,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 153.67 57.15 0)
+		(at 176.53 57.15 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -1964,7 +2164,7 @@
 		(dnp no)
 		(uuid "636514d3-7345-4478-a49a-fa3017ec60e0")
 		(property "Reference" "J2"
-			(at 156.21 57.1501 0)
+			(at 179.07 57.1501 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1975,7 +2175,7 @@
 			)
 		)
 		(property "Value" "42VAC Output"
-			(at 156.21 54.6101 0)
+			(at 179.07 54.6101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1986,7 +2186,7 @@
 			)
 		)
 		(property "Footprint" "AU230V-to-SU42V:TJC1-2A"
-			(at 153.67 57.15 0)
+			(at 176.53 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1997,7 +2197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 57.15 0)
+			(at 176.53 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2008,7 +2208,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 153.67 57.15 0)
+			(at 176.53 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2028,6 +2228,165 @@
 			(project "AU230V-to-SU42V"
 				(path "/8142624e-9186-4ebf-a2c3-7833e870c366"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 162.56 53.34 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8464ea9a-b825-4d89-8be9-fa9426cfa254")
+		(property "Reference" "R1"
+			(at 162.56 46.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100Ω 3W"
+			(at 162.56 49.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
+			(at 162.56 55.118 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 162.56 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab7705ba-8dba-4ebb-a03c-b8625f7c1560")
+		)
+		(pin "2"
+			(uuid "08caf1fe-2905-4cb1-a0ac-f6d9b544ac65")
+		)
+		(instances
+			(project "AU230V-to-SU42V"
+				(path "/8142624e-9186-4ebf-a2c3-7833e870c366"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 152.4 53.34 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8c3cc0f8-ff13-44fa-9a40-0dc888497e9d")
+		(property "Reference" "F2"
+			(at 149.352 48.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "160mA T 250V"
+			(at 149.352 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Littelfuse_5x20mm"
+			(at 152.4 55.118 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 152.4 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "25dec237-8bc7-46a5-9d04-e960349873a4")
+		)
+		(pin "1"
+			(uuid "48c4f7fb-278b-444b-bad9-1aaa1b2e7c93")
+		)
+		(instances
+			(project "AU230V-to-SU42V"
+				(path "/8142624e-9186-4ebf-a2c3-7833e870c366"
+					(reference "F2")
 					(unit 1)
 				)
 			)
